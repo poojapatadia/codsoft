@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <title>PORTFOLIO
+    </title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <a href="">
+        <div class="logo">Pooja Patadia</div>
+      </a>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Abdul Azees</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="mypic.jpeg" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">POOJA PATADIA</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Abdul Azees CV.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Projects</h3>
+              <p>Simon say game<br />(Frontend Development)</p>
+              <p>Resume Builder </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                 Bachelors of Engineering Degree<br />V.V.P Engineering College
+                <br />RAJKOT
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Software Engineering student at National Textile University,
+              Pakistan, with expertise in HTML, CSS, Bootstrap, JavaScript,
+              WordPress, GitHub, and Flutter app development. Proven success in
+              collaborative project delivery, showcasing technical prowess and
+              effective teamwork. A quick learner and innovative problem-solver,
+              I am committed to continuous improvement in web and mobile
+              development. Eager to contribute to innovative projects and
+              explore impactful collaborations. Let's connect
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="react.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>ReactJS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img src="js.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="flutter.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flutter</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="mongo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Mongo DB</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img src="wp.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>WordPress</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="node.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="php.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <!-- <div class="tab-container">
+        <button class="tab-button active" onclick="showTab('js-projects')">
+          JavaScript
+        </button>
+        <button class="tab-button" onclick="showTab('react-projects')">
+          ReactJS
+        </button>
+        <button class="tab-button" onclick="showTab('mern-projects')">
+          MERN Stack
+        </button>
+        <button class="tab-button" onclick="showTab('wordpress-projects')">
+          WordPress
+        </button>
+        <button class="tab-button" onclick="showTab('flutter-projects')">
+          Flutter
+        </button>
+      </div> -->
+      
+      <div class="section-container">
+
+        <div class="pr1">
+          <img src="project1.jpg" alt="">
+          <h2>E-commerce</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, mollitia amet. Excepturi doloremque distinctio perspiciatis soluta quae cumque quos praesentium.</p>
+        </div>
+        <div class="pr1">
+          <img src="project2.jfif" alt="">
+          <h2>facebook home page</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, mollitia amet. Excepturi doloremque distinctio perspiciatis soluta quae cumque quos praesentium.</p>
+        </div>
+        <!-- <div id="js-projects" class="project-tab">
+          <div class="card color-container">
+            <div class="article-container">
+              <img
+                src="random.png"
+                alt="Random Meme"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Random Meme</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/mkabdulazees56/Random-meme-website?tab=readme-ov-file', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://mkabdulazees56.github.io/Random-meme-website/', '_blank')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="react-projects" class="project-tab" style="display: none">
+          <div class="card color-container">
+            <div class="article-container">
+              <img
+                src="./assets/text.png"
+                alt="TextUtils ReactJS"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              TextUtils ReactJS
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/mkabdulazees56/TextUtils-ReactJs', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="mern-projects" class="project-tab" style="display: none">
+        </div>
+        <div id="wordpress-projects" class="project-tab" style="display: none">
+
+          <div class="card color-container">
+            <div class="article-container">
+              <img
+                src="./assets/lms.png"
+                alt="LMS WordPress"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">LMS WordPress</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/mkabdulazees56/WordPress-LMS-Website?tab=readme-ov-file', '_blank')"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://lmsabdulazees.netlify.app/', '_blank')"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="flutter-projects" class="project-tab" style="display: none">
+          <div class="card color-container">
+            <div class="article-container">
+              <img
+                src="./assets/BMI1.png"
+                alt="BMI CalCulator | Flutter"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">
+              BMI CalCulator | Flutter
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/mkabdulazees56/BMICalculatorFlutter/', '_blank')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="poojapatadia240@gmail.com" target="_blank"
+              >poojapatadia240@gmail.com</a
+            >
+          </p>
+        </div>
+        
+      </div>
+    </section>
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Abdul Azees. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
